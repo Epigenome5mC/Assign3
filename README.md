@@ -20,6 +20,11 @@ TEST.SH
 Please create pointless.sh, changing from printing your hostname with $HOSTNAME, to your $USER
 
 ```
+./pointless.sh 
+veronico
+```
+
+```
 #!/bin/bash
 
 #echo $HOSTNAME  # prints name of server you are on.
