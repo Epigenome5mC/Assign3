@@ -77,7 +77,7 @@ echo "The sum is = $sum"
 ### 6
 Create a program "mb_or_kb.sh", referring to bigornot.sh and useful.sh, create a script called big file that checks to see if the file exists provided as the first argument exists, and if it exists then gets the filesize, storing it as a variable. I have not provided you with a way to get filesize in exercise, and expect you to search web for a way.  The program then checks to see if the size is greater than 1,000,000.  If its less then 1,000,000, it prints the number of kilobytes (divide by 1000) followed by "kB".  If its greater than 1,000,000, then print the number of megabytes followed by "MB".
 
-#You must provide the path of the file.
+You must provide the path of the file.
 
 ```
 #!/bin/bash
@@ -136,7 +136,7 @@ print_gene brca1
 ### 10
 Please create a bash shell called "genotype.sh" that takes a VCF as argument 1, and prints space delimited chromosome, position, reference, alternative, and genotype for all genotypes in VCF.
 
-#Takes about 2 minutes to load.
+Takes about 2 minutes to load.
 
 ```
 #!/bin/bash
