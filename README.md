@@ -20,18 +20,23 @@ TEST.SH
 Please create pointless.sh, changing from printing your hostname with $HOSTNAME, to your $USER
 
 ```
-
 #!/bin/bash
 
 #echo $HOSTNAME  # prints name of server you are on.
 
 echo $USER
-
 ```
 
 ### 2
 Please create quotequotes.sh, please add 1 additional lines that prints the process id of the current script using a special variable in a sentence: "The process id for this script is **235**'
-*REPLACE WITH RESULTS*
+
+```
+#!/bin/bash
+
+VARIABLE="The process ID for this script is $$"
+
+echo $VARIABLE
+```
 
 ### 3
 Please create processes.sh.  Modify it such that it prints the top 5 CPU consuming processes
